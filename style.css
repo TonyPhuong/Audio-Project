@@ -4,6 +4,11 @@ html {
   background-size: cover;
 }
 
+.content {
+  color: rgb(247, 239, 239);
+  float: left;
+}
+
 .futaba {
     width: 10em;
     height: 10em;
