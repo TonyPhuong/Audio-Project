@@ -1,0 +1,135 @@
+html {
+  background-image: url(img/Persona5_DancingStarNight.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.futaba {
+    width: 10em;
+    height: 10em;
+    background-image: url(img/Futaba.jpg);
+    background-size: cover;
+    border-radius: 5em;
+    margin: 5em auto;
+    animation:slide 0.5s cubic-bezier(.25,.46,.45,.94);
+
+  }
+  
+  .futaba:hover {
+    animation: rotate 2s linear infinite;
+    
+  }
+  
+  /* ANIMATION  */
+
+  @keyframes rotate {
+      100% {transform: rotate(1turn);
+  }
+}
+
+  @keyframes slide{
+      0% { transform:translateX(-1000px) rotate(-720deg);
+           filter:blur(50px);
+           opacity:0}
+
+      100% { transform:translateX(0) rotate(0deg);
+             filter:blur(0);
+             opacity:1}
+}
+
+/* song 2 */
+
+.futabanight {
+  width: 10em;
+  height: 10em;
+  background-image: url(img/futaba_dc.jpg);
+  background-size: cover;
+  border-radius: 5em;
+  margin: 5em auto;
+  animation:slideright 0.5s cubic-bezier(.25,.46,.45,.94);
+
+}
+
+.futabanight:hover {
+  animation: rotate 2s linear infinite;
+  
+}
+
+/* slide from right */
+
+@keyframes slideright{
+  0% { transform:translateX(1000px) rotate(720deg);
+      filter:blur(50px);
+      opacity:0}
+ 
+  100% { transform:translateX(0) rotate(0deg);
+        filter:blur(0);
+        opacity:1}}
+
+/* song 3 */
+
+.ann {
+    width: 10em;
+    height: 10em;
+    background-image: url(img/Ann.jpg);
+    background-size: cover;
+    border-radius: 5em;
+    margin: 5em auto;
+    animation:slide 0.5s cubic-bezier(.25,.46,.45,.94);
+
+  }
+  
+  .ann:hover {
+    animation: rotate 2s linear infinite;
+  }
+
+  /* song 4 */
+
+  .phantom {
+    width: 10em;
+    height: 10em;
+    background-image: url(img/phantomtheif.jpg);
+    background-size: cover;
+    border-radius: 5em;
+    margin: 5em auto;
+    animation:slideright 0.5s cubic-bezier(.25,.46,.45,.94);
+
+  }
+  
+  .phantom:hover {
+    animation: rotate 2s linear infinite;
+  }
+
+  /* song 5 */
+
+  .sumire {
+    width: 10em;
+    height: 10em;
+    background-image: url(img/sumire.jpg);
+    background-size: cover;
+    border-radius: 5em;
+    margin: 5em auto;
+    animation:slide 0.5s cubic-bezier(.25,.46,.45,.94);
+
+  }
+  
+  .sumire:hover {
+    animation: rotate 2s linear infinite;
+  }
+
+  /* song 6 */
+
+  .haru {
+    width: 10em;
+    height: 10em;
+    background-image: url(img/Haru.jpg);
+    background-size: cover;
+    border-radius: 5em;
+    margin: 5em auto;
+    animation:slideright 0.5s cubic-bezier(.25,.46,.45,.94);
+
+  }
+  
+  .haru:hover {
+    animation: rotate 2s linear infinite;
+  }
